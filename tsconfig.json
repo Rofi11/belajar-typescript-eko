@@ -1,4 +1,15 @@
 {
+  /* include : memasukan data apa saja
+   ** : semua yang ada di folder src, * : dengan sub file nya (memasukan semua folder yg mau di compile di sini)*/
+  "include": ["src/**/*", "test/**/*"],
+
+  /* exclude :  folder apa saja yang tidak akan di compile
+  tidak memasukan semua yang ada path .test.ts*/
+  // "exclude": [
+  //   "src/**/*.test.ts",
+  //   "test/**/*.test.ts"
+  // ],
+
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
@@ -55,7 +66,7 @@
     // "sourceMap": true,                                /* Create source map files for emitted JavaScript files. */
     // "inlineSourceMap": true,                          /* Include sourcemap files inside the emitted JavaScript. */
     // "outFile": "./",                                  /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. */
-    // "outDir": "./",                                   /* Specify an output folder for all emitted files. */
+    "outDir": "dist/" /* Specify an output folder for all emitted files. */,
     // "removeComments": true,                           /* Disable emitting comments. */
     // "noEmit": true,                                   /* Disable emitting files from a compilation. */
     // "importHelpers": true,                            /* Allow importing helper functions from tslib once per project, instead of including them per-file. */
