@@ -1,0 +1,12 @@
+Daftar Tipe Data Primitif
+Tipe data Primitif
+    > number --> number di javascript
+    > boolean --> Boolean di javascript
+    > string --> String di javascript
+    > kalo di tpescript harus di deklarasikan
+
+Deklarasi Variabel
+    > karena Typescript adalah Stongly Type languange, oleh karena itu saat kita membuat variabel, kita harus menentukan tipe data variabel nya
+    > Dan jika sudah menentukan tipe datanya, kita boleh mengubah variabel tersebut menjadi data yang berbeda
+    > Typescript bisa secara otomatis mendeteksi tipe data yang sedang digunakan, tapi kita juga bisa menentukan secara eksplisti menggunakan:
+        e.g : const namaVariable:tipedata(any) = value
