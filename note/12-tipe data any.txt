@@ -1,0 +1,6 @@
+Tipe Data Any
+    > Saat kita menggunakan Typescript, setiap jenis data ideal nya ada deklarasi data nya
+    > Contoh saat kita menggunakan tipe data Javascript Object, ideal nya harusnya ada ketentuan attribute yang dimiliki nya, sedangkan di javascript hal itu tidak wajib
+    > Pada kasus kita memang ingin membuat tipe data yang bebas seperti javascript, kita bisa menggunakan tipe data Any
+    > Tipe data Any tersebut menjadikan Typescript tidak melakukan pengecekan apapun terhadap akses tipe data tersebut
+    > rekomendasi nya jangan terlalu banyak menggunakan kebanyakan tipe data Any
