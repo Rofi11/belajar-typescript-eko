@@ -1,0 +1,9 @@
+Union Type (cara untuk merubah rubah tipe data yang sebenrnya tidak bisa di lakukan di strongtype language)
+    > Seperti yang sudah kita tahu, Javascript sebenarnya bisa menyimpan berbagai jenis tipe data di variabel yang sama
+    > namun di Typescript, hal itu dilarang karena praktek yang buruk
+    > Pada kasus jika kita ingin membuat variabel yang bisa berubah berntuk tipe data, kita bisa memberi tahunya menggunakan union Type
+    > Secara otomatis Typescript akan membolehkan kita mengubah tipe data, namun sesuai yang sudah di tentukan di union type
+
+Menggunakan Union Type (selalu berhati - hati dengan melakukan pengecekan type data nya menggunakan typeof)
+    > Saat kita membuat Union Type, Kita perlu berhati - hati ketika memanggil method terhadap variabel tersebut
+    > Hal ini karena tipe datanya bisa berubah, oleh karena itu ada ada baiknya kita melakukan pengecekan tipe data terlebih dahulu menggunakan typeof
