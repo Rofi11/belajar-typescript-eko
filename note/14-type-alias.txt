@@ -1,0 +1,7 @@
+Type Alias
+    > Menggunakan tipe data Any sebenarnya tidak direkomendasikan
+    > Biasanya kita akan menggunakan tipe data Any, jika memang datanya kita gunakan misal dari library orang lain yang sudah tidak bisa di ubah, atau memang ketika attribute nya tidak pasti datanya (hasil return nya bisa berubah sesuai kondisi)
+    > Pada kasus jika kita membuat tipe data Javascript object sendiri, kita bisa membuat alias untuk structure tipe data object nya
+
+Type alias unutk Union Type
+    > Type alias bisa untuk membuat Union Type
