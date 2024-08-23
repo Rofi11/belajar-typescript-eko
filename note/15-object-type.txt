@@ -1,0 +1,4 @@
+Object Type (untuk kasus sederhana saja)
+    > pada kasus yang sederhana, kadang membuat alias terlalu bertele-tele, kita juga bisa membuat tipe data javascript object langsung dengan mendeklarasikan detail type nya ketika membuat variabel
+    > Hal ini lebih sederhana dibandingkan membuat Type terlebih dahulu
+    > jika kasus nya lebih kompleks pakai type alias
