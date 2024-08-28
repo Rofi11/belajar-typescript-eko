@@ -1,0 +1,12 @@
+Enum
+    > Tpescript memiliki tipe data enum, nyaitu tipe data yang nilai nya sudah pasti
+    > tipe data ini tidak dimiliki di javascript
+    > Secara default tipe data enum ini akan di konversi menjadi string di javascript, namun bisa jua di konversi menjadi number
+    > kita hrus hati hati terhadap perubahan karena default number bisa berubah mengikuti urutan
+        > untuk mengatasi nya kita harus menentukan nilai default nya bisa number atau string.
+    > enum digunakan untuk tipe data yang akan di tentukan dari awal.
+
+
+Enum di javascript
+    > secara default, enum di Typescript akan di konversi menjadi tipe data number
+    > Kadang kita ingin ybah number menjadi string, kita bisa melakukan hal itu ketika membuat enum nya
