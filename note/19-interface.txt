@@ -1,0 +1,9 @@
+Interface
+    > interface adalah cara lain melakukan deklarasi data selain menggunakan Type
+    > Lantas kalo begitu, apa beda nya interface dan Type
+    > interface bisa dikembangkan dengan mudah dibandingkan dengan Type
+    > Oleh karena itu, kebanyakan untuk tipe data yang kompleks, kebanyakan programmer Typescript akan menggunakan interface dibandingkan menggunakan Type
+
+Readonly Properties
+    > Properties dapat kita jadikan readonly, yang artinya tidak bisa diubah lagi
+    > Kita bisa menggunakan kata kunci readonly pada attribute tersebut
