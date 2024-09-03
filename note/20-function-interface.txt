@@ -1,0 +1,3 @@
+Function Interface
+    > Di Typescript, kita juga bisa membuat deklarasi function dalam bentuk interface
+    > Dengan demikian ketika ingin membuat variabel yang berisi function, kita bisa dengan mudah menggunakan interface tersebut

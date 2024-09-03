@@ -32,3 +32,7 @@ Keuntungan menggunakan Typescript
     1. install npm install --save-dev @babel/preset-typescript
     2. install npm install --save-dev ts-jest
     3. install npm install --save-dev @jest/globals
+
+4. untuk Compile
+    1. untuk hanya test ==> npm test nama file test
+    2. compile jadi js ==> npx tsc
