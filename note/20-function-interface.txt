@@ -1,3 +1,8 @@
-Function Interface
+Function Interface 1 (video 20)
     > Di Typescript, kita juga bisa membuat deklarasi function dalam bentuk interface
     > Dengan demikian ketika ingin membuat variabel yang berisi function, kita bisa dengan mudah menggunakan interface tersebut
+
+Function Interface 2 (video 23)
+    > Implementasi dari interface di javascript sebenarnya adalah sebuah object
+    > Seperti yang kita tahu di Javascript, kita bisa menambahkan function sebagai attribute di object (membuat method kalo di JS mah)
+    > Hal ini juga bisa kita lakukan di interface
