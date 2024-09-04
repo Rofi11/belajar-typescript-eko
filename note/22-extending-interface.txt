@@ -1,0 +1,4 @@
+Extending Interface
+    > Interface bisa melnajutkan (extends) ke interface lain
+    > Secara otomatis attribute interface yang di lanjutkan di miliki juga oleh interface tersebut
+    > Ini membuat kita lebih ketika membuat tipe data yang kompleks
