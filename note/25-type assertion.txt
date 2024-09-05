@@ -1,0 +1,9 @@
+Type Assertions
+    > Kadang, kita sering berada pada situasi dimana kita tahu tipe data yang kita gunakan, namun Typescript tidak tahu data tersebut
+    > Biasanya pada kasus kita menggunakan kode dari javascript sehingga membuat return nya berupa tipe data any
+    > Pada kasus ini, kita bisa melakukan konversi ke tipe data yang kita mau menggunakan kata kunci Assertions
+    > in isebut dengan type Assertions
+
+// note
+ // type assertion tidak akan mengecek tipe data nya sama semua dengan interface Person atau tidak
+         // makanya harus lebih hati hati, karena bersiko tinggi error dan tidak ketahuan
