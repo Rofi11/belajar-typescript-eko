@@ -1,0 +1,4 @@
+Intersection Types
+    > Intersection merupakan cara membuat tipe data baru dengan cara menggabungkan dua tipe data lainya
+    > Hal ini sanagat cocok ketika kita tidak bisa melakukan extends pada interface
+    > Kita bisa membuat type dengan menggunakan kata kunci & (dan)
