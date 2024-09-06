@@ -1,0 +1,5 @@
+Function
+    > Sama seperti di javascript, Typescript juga mendukung pembuatan Function
+    > Cara pembuatan function di Typescript pun saama dengan di javascript
+    > Salah satu yang membedakan adalah, pada parameter kita perlu menentukan tipe data, dan pada function kita juga perlu menentukan tipe data return value nya
+    > Pada kasus fucntion tersebut tidak mengembalikan value, kita bisa menggunakan tipe data void, atau tidak perlu menyebutkan sama sekali seperti di javascript
