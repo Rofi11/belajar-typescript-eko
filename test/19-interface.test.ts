@@ -1,4 +1,4 @@
-import { Seller } from "../src/interface";
+import { Seller } from "../src/19-interface";
 
 describe("Interface", () => {
   it("Should support interface in Typescript", () => {

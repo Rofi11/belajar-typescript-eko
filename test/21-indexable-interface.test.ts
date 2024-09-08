@@ -1,4 +1,4 @@
-import { StringArray, StringDictionary } from "../src/indexable-interface";
+import { StringArray, StringDictionary } from "../src/21-indexable-interface";
 
 describe("Indexable Interface", () => {
   it("Should support indexable interface use number index in Typescript", () => {

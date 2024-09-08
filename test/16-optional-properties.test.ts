@@ -1,4 +1,4 @@
-import { Category, Product } from "../src/optional-properties";
+import { Category, Product } from "../src/16-optional-properties";
 
 // contoh Oprional properties mengikuti contoh type alias dan object type
 describe("Optional Properties", () => {

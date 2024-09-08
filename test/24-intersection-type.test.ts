@@ -1,4 +1,4 @@
-import { Domain } from "../src/intersection-type";
+import { Domain } from "../src/24-intersection-type";
 describe("Intersection Types", () => {
   it("should support intersction types", () => {
     // intersection types

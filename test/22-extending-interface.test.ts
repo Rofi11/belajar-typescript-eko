@@ -1,4 +1,4 @@
-import { Employee, Manager } from "../src/extending-interface";
+import { Employee, Manager } from "../src/22-extending-interface";
 
 describe("Extending Interface", () => {
   it("Should support extending interface in Typescript", () => {

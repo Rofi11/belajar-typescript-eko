@@ -1,4 +1,4 @@
-import { AddFunction, Person } from "../src/function-interface";
+import { AddFunction, Person } from "../src/20-function-interface";
 describe("function Interface", () => {
   it("Should support  function interface in Typescript", () => {
     // menggunakan function interface (video 20)

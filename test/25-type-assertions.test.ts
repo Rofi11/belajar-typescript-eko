@@ -1,4 +1,4 @@
-import { Person } from "../src/function-interface";
+import { Person } from "../src/20-function-interface";
 describe("Type Assertions", () => {
   it("Shouls support type assertions", () => {
     // conoth mengambil data dari javascript yg tidak ada deklare nya, atau membuat pakai tipe any

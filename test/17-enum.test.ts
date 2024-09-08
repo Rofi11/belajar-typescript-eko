@@ -1,4 +1,4 @@
-import { Customer, CustomerType } from "../src/enum";
+import { Customer, CustomerType } from "../src/17-enum";
 
 describe("Enum", () => {
   it("Should suppport in Typescript about enum", () => {
