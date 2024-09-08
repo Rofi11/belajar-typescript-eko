@@ -1,0 +1,5 @@
+Function Overloading
+    > Function Overloading adalah kemampuan untuk membuat function dengan nama yang sama, namun dengan parameter input yang berbeda
+    > Di javascript, membuat satu function dengan input data yang berbeda dan output yang bisa menghasilkan data yang berbeda sudah biasa di lakukan
+    > Namun hal ini kadang bisa membuat fuction tidak aman, karena bisa menghasilkan berbeda-beda tipe data
+    > Typescript memberikan kemampuan Function Overloading, agar pembuatan Function seperti ini lebih aman dilakukan
