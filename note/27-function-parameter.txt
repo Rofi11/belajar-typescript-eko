@@ -1,0 +1,3 @@
+Function parameter
+    > Sama seeprti di javascript, function di Typescript bisa memiliki banyak parameter, rest parameter (variable argument) sampai default value
+    > Fitur yang berbeda dengan javascript adalah, di typescript setiap parameter wajib diisi, kecuali kita tenrukan sebagai optional menggunakan ? (tanda tanya)
