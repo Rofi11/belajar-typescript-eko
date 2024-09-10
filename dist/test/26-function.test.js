@@ -1,5 +1,5 @@
 "use strict";
-describe("Funxtion", () => {
+describe("Function", () => {
     it("Should support function in typescript", () => {
         // contoh yang mereturn tipe data
         function sayHello(name) {
