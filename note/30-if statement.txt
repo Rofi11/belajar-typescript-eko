@@ -1,0 +1,3 @@
+If Statement
+    > Sama seperti di javascript, di Typescript juga kita bisa melakukan if Statement
+    > If Statement di typescript sama seperti if Statement di javascript
