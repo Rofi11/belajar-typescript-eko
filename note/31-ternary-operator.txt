@@ -1,0 +1,2 @@
+Ternary Operator
+    > Ternary Operator yang dilakukan di javascript juga bisa dilakukan di Typescript
