@@ -1,0 +1,3 @@
+For Loop
+    > Perulangan For di Typescript sama saja seperti perulangan For di Javascript
+    > Typescript mendukung semua for loop seperti for loop biasa, for in, dan for of
