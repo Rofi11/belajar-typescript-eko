@@ -1,0 +1,4 @@
+Do While Loop
+    > TypeScript juga mendukung perulangan menggunakan Do While Loop
+    > akan melakukan perintah satu kali dulu sesuai didalam perintah
+    > setelah itu baru melakukan pengecekan kondisi untuk melanjutkan perulangan
