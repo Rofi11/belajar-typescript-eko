@@ -1,0 +1,5 @@
+Break dan Continue
+    > Seperti di javascript, pada perulangan While atau do while, kita sering menggunakan kata kunci break dan Continue
+    > Hal ini bisa dilakukan di Typescript
+    > Break untuk memberhentikan pengulangan jika kondisi sudah terpenuhi
+    > Continue untuk menlanjutkan perulangan jika ada kondisi yang terpenuhi ( can only be used to skip one loop iteration.)
