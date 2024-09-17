@@ -1,0 +1,5 @@
+Javascript Feature
+    > Semua Fitur yang pernah kita bahas di kelas Javascript, bisa dilakukan di Typescript
+    > Seperti Operator matematika, perbandingan, Logika, String Template, Optional Chaining, Wtih Statemenent, Default Parameter, Function Generator, Getter Setter, Destructuring, Modules, Standard Library dan Lain - Lain
+    > Yang membedakan adalah pada fitur Typescript, Karena Strongly Type, Kita harus menentukan tipe data dari tiap Variabel dan Parameter
+    > Pada Kasus jika ingin seperti di Javascript, dimana variabel atau parameter bisa menggunakan tipe data apapun, maka kita harus menggunakan tipe data any di Typescript
