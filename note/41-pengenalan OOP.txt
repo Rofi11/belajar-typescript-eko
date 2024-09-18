@@ -1,0 +1,19 @@
+Apa itu Object Oriented Programming?
+    > Object Oriented Programmung adalah sudut pandang bahasa pemogrograman yang berkonsep "Object"
+    > Ada banyak sudut pandang bahasa pemograman, namun OOP adalah yang sangat populer saat ini
+    > Ada beberapa istilah yang perlu di mengerti dalam OOP, nyaitu : Object dan Class
+
+Apa itu Object
+    > Object adalah data yang berisi field / properties / attributes dan method / function / behaviour
+
+Apa itu Class
+    > Class adalah blueprint, prototype atau cetakan untuk membuat Object
+    > Class berisikan deklarasi semua properties dan functions yang di miliki oleh Object
+    > Setiap Object selalu dari Class
+    > dan sebuah Class bisa membuat Object tanpa batas
+
+OOP di Typescript
+    > Implementasi OOp di Typescript, sebenarnya akan di terjemahkan menjadi kode Javascript 
+    > Dan Javascript sendiri sebenarnya sejak awal dibuat sebagai bahasa prosedural, bukan bahasa pemogrograman berorientasi Object
+    > Oleh karena, Implementasi OOP di javascript memang tidak sedatail bahasa pemograman lain yang memang dari awal merupakan bahasa pemograman OOP seeprti java atau C++
+    > Pada materi ini , sebenarnya untuk OOP di Typescript hampir sama dengan OOP di javascript, oleh karena itu di awal saya wajibkan untuk sudah mengikuti kelas javascript, karena disana sudah jelas dibahas tentang OOP di javascript
