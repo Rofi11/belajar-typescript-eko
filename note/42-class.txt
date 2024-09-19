@@ -1,0 +1,4 @@
+Class
+    > Untuk membuat Class di Typescript, kita bisa menggunakan kata kunci class, sama seperti di Javascript
+    > Cara membuat Object dari Class pun cukup menggunakan kata kunci new, sama juga seperti di javascript
+    > biasanya huruf depan nya pakai huruf kapital
