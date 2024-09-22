@@ -1,0 +1,9 @@
+Properties atau fields
+    > Properties atau fields adalah atribut yang di miliki oleh class
+    > Pada javascript, kita bisa langsung saja membuat atribute tanpa harus mendeklarasikan atribut nya
+    > Di typescript, kita perlu mendeklarasikan properties nya terlebih dahulu, beserta dengan tipe data nya
+    > Sama seperti ketika membuat attribute di Type atau interface, kita juga bisa menjadikan properties sebagai optional, mandatory atau readonly
+    > Properties yang mandatory, wajib ditambahkan nilai Constructor
+
+Properties Default value
+    > Properties juga bisa memiliki default value, kita bisa tambahkan menggunakan operator = (sama dengan) pada properties yang ingin kita tambahkan default value nya

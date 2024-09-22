@@ -1,5 +1,5 @@
 "use strict";
-describe("Class", () => {
+describe("Constructor", () => {
     // membuat class
     class Customer {
         // membuat constructor dalam class (bisa mengirim parameter, karena seperti function)
