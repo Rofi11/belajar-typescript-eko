@@ -1,0 +1,4 @@
+Method
+    > Selain Properties, Di class juga bisa memiliki fucntion, atau lebih sering disebut Method
+    > Cara pembuatan nya sebenernya sama seperti di Javascript, hanya saja pada Typescript kita harus tentukan tipe data parameter dan return nya
+    >
