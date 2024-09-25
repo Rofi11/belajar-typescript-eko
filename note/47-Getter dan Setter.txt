@@ -1,0 +1,4 @@
+Getter dan Setter
+    > Sampai Sekarang, ketika ingin mengubah data properties, kita bisa langsung  gunakan operator (sama dengan), dan ketika ingin mengambil data cukup gunakan .(titik)
+    > Javascript memiliki fitur bernama Getter dan Setter, begitu juga di Typescript, dimana kita bisa membuat method untuk mengubah properties dan juga method unutk mengambil properties
+    > Karena bentuk nya adalah method, maka kita bisa menambahkan validasi apapun pada method tersebut sebelum properties aslinya diubah
