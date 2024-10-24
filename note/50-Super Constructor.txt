@@ -1,0 +1,5 @@
+Super Constructor
+    > Pada Kasus pewarisan antar class, kadang di Child Class kita ingin membuat Constructor juga, baik itu sama seperti Parent Child, ataupun berbeda
+    > Pada Kasus kita membuat Constructor di Child Class, maka secara otomatis kita harus memanggil Constructor di Parent Class
+    > Hal ini sebenarnya sama seperti di Javascript
+    > Kita bisa menggunakan kata kunci super untuk  memanggil Constructor di Parent class 
