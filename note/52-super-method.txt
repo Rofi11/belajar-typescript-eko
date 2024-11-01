@@ -1,0 +1,2 @@
+Super Method
+    > Sama seperti Constructor, saat kita membuat Method Overriding, kita juga bisa memanggil Method yang sama yang terdapat di parent class dengan menggunakan kata kunci super, lalu diikuti dengan Method yang ingin kita panggil
