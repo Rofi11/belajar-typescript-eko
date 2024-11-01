@@ -1,0 +1,4 @@
+Method overriding
+    > Saat kita membuat Child Class, kita bisa mendeklarasikan ulang method yang terdapat di Parent Class
+    > Jika semua deklarasi Method sama, maka itu adalah Method overriding
+    > Pada kasus tertentu, kadang kita sering melakukan hal ini
