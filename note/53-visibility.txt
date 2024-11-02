@@ -1,0 +1,11 @@
+Visibility
+    > Di javascript dan typescript, secara default setiap membuat properties atau method, maka sifatnya adalah bisa di akses didalam class, atau di luar class (public)
+    > Di javascript, kita mengenal private properties atau method, dimana menggunakan profix #, yang secara otomatis hanya bisa diakses didalam class
+    > di typescript, visibility ini di permudah, dengan mengenalkan tiga kata kunci, public, private dan protected
+
+
+    Visibility di typescript
+    * Visibility (properties method) ---> keterangan
+    > public  ---> bisa di akses dimanapun, secara default jika tidak menyebutkan visibilty, maka akan menggunakan visibility public
+    > private ---> hanya bisa di akses oleh class nya sendiri
+    > protected ---> sama seperti private, tapi bisa juga diakses oleh class turunannya
