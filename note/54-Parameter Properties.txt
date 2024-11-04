@@ -1,0 +1,7 @@
+Parameter Properties
+    > Kadang, sering nya kita selalu membuat parameter di constructor yang hanya digunakan sebagai nilai untuk Properties
+    > Pada kasus seperti ini, kita bisa menggunakan Parameter Properties, yang secara otomatis parameter di constructor akan dijadikan sebagai Properties di class nya
+    > Untuk membuat Parameter Properties, kita bisa langsung menambahkan visibility pada parameter di constructor
+
+    note : 1. cara ini lebih mudah untuk digunakan, bisa menyingkat penulisan declaration
+            2. harus menambahkan visibility untuk bisa membuat membuat parameter menjadi Properties
