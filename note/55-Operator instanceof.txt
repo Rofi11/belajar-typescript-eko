@@ -1,0 +1,4 @@
+Operator instanceof
+    > Kadang ada kasus kita ingin mengecek apaakh sebuah object merupakan instance dari class tertentu atau bukan
+    > kita tidak bisa menggunakan operator typeof, karena object dari class, jika kita gunakan opeartor typeof, hasilnya adalah "Object"
+    > Operator instanceof akan menghasilkan boolean, true jika benar tersebut adalah instance object nya atau false jika bukan
