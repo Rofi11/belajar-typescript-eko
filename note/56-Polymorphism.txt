@@ -1,0 +1,12 @@
+Polymorphism
+    > Polymorphism berasal dari bahasa Yunani yang berarti banyak bentuk
+    > Dalam OOP, Polymorphism adalah kemampuan sebuah object beruabh bentuk menjadi bentuk lain
+    > Polymorphism erat hubungannya dengan inheritance
+
+    note : 1. merubah bentuk dari object dan mewariskan nya
+            2. bisa mengirim object dan turunan turunan nya
+
+Method Polymorphism
+    > Saat kita membuat function / method dengan parameter, kita juga bisa mengirim data Polymorphism pada parameter tersebut
+    > Misal kita membuat sebuah function dengan parameter class Employee, kita bisa mengirim object dalam bentuk Employee, Manager ataupun VicePresident
+    > hal ini karena Manager dan VicePresident merupakan turunan dari Employee, sehingga kita bisa mengirim data seluruh turunan dari Employee
