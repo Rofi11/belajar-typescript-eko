@@ -1,0 +1,10 @@
+Type Cast
+    > Di typescript dasar, kita pernah belajar tentang type assertions, dimana kita bisa mengubah tipe data dari satu type data ke tipe data lainnya yang lebih specific atau detail
+    > ini juga bisa kita lakukan pada kasus method Polymorphism
+    > Kita bisa kombinasikan operator instanceof dan type assertions
+
+Perlu diingat
+    > Saat melakukan Type Cast, pastikan posisi Child paling bawah dilakukan pengecekan di awal
+        note : yang paling bawah dulu di cek nya (descending style) (fokus nya ke turunannya, turunan paling terakhir harus jadi pertama)
+    > Hal ini agar tidak terjadi kesalahan konversi
+    > contoh, jika uabh posisi pengecekan instanceof Manager dan VicePresident, maka ketika kita mengirim VicePresident, dia akan berhenti di manager, hal ini karena hasil instanceof bernilai true, karena VicePresident adalah turunan dari manager
