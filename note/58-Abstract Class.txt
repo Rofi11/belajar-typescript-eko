@@ -1,0 +1,12 @@
+Abstract Class
+    > Abstract Class merupakan deklarasi Class yang belum selesai
+    > Abstract Class membolehkan memiliki properties atau method yang abstract atau belum di buat implementasi detail nya
+    > Abstract Class juga tidak bisa dibuat menjadi object menggunakan kata kunci new
+    > Kegunaan Abstract Class hanya digunakan sebagai Parent Class yang nanti diturunkan ke Child Class nya
+
+
+    note : 1. kalo bukan yang abstract wajib di isi
+            2. detail nya nanti di isi di child nya/ turunan nya
+            3. harus menambahkan di depan nya kata kunci abstract
+            4. karena turunan dari parent abstract class, semua yang ada kata kunci abstract wajib di implementasikan detail nya di child nya
+            5. digunakan ketika kita mau membuat declaration, tapi ada beberapa yang nanti nya di declaration nya di child bisa menggunakan abstract, agar bisa di pisah.
