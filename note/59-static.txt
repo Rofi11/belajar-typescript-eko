@@ -1,0 +1,13 @@
+Static
+    > Static merupakan kata kunci yang bisa digunakan pada properties atau method di class, yang menyebabkan properties atau method tersebut bukan lagi sebagai bagian dari object yang dibuat dari class
+    > Static properties atau method, bisa menyebabkan seakan - akan kita membuat global variable atau function (jadi ke global scope), yang bisa diakses secara langsung, tanpa membuat object dari class
+    > Kita juga menambahkan visibility pada statis properties atau method
+    > Biasanya statis ini sering digunakan pada jenis class utility / helper
+
+    note : 1. biasanya akan menamai variabel nya menggunakan huruf CAPITAL SEMUA
+            2. cocok untuk UTILITY / HELPER
+
+PERLU DIINGAT
+    > Static member haya bisa mengakses static member lainnya, tidak bisa diakses oleh non static member, kecuali dari object
+        > mksd nya static kalo mmebuat static class tidak bisa di akses oleh non static kecuali dia sesama static atau ada didalam object yang sama
+    > Sedangkan unutk non static member, bisa mengakses static member secara langsung
