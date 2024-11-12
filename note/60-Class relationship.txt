@@ -1,0 +1,6 @@
+Class Relationship
+    > Karena implementasi dari object di typescript adalah javascript object
+    > jadi sebenarnya jika terdapat dua object walaupun berbeda class, tetapi secara properties dan function sama, masih bisa dianggap secara structural Javascript object
+    > Pada kasus seperti ini, kita bisa membuat object untuk tipe data A, dengan membuat object dari tipe data B, asal secara properties dan method sama
+
+    note : 1. feature ini kurang di recomendation kan, karena akan berdampak membingungkan programmernya
