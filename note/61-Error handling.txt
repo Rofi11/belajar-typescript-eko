@@ -1,0 +1,4 @@
+Error handling
+    > Sama seperti di javascript, di typescript pun mendukung error handling menggunakan try catch
+    > Cara penggunaan error handling di typescript sama saja di javascript
+    > Termasuk jika ingin membuat class Error secara manual, ini juga bisa kita lakukan dengan membuat class turunan dari Error, sama seperti di javascript
