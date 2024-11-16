@@ -1,0 +1,7 @@
+Namespace
+    > Selain menggunakan Javascript modules, di typescript ada cara lain untuk mengorganisisr kode program kita, nyaitu menggunakan Namescpace
+    > Namescpace biasanya digunakan untuk mengorganisisr kode kita dalam satu module terdapat banyak sekali kode, sehingga bisa kita kelola dalam Namescpace
+    > jika module kita anggap sebuah folder, maka Namescpace adalah sub folder didalam module
+    > Untuk membuat Namescpace, kita bisa gunakan kata kunci namespace, dan kita bisa tambahkan class, function , dan lain-lain di dalam Namescpace tersebut 
+
+    Note : 1. ini adalah cara untuk pengelompokan/ grouping code
