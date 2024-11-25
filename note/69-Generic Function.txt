@@ -1,0 +1,4 @@
+Generic Function
+    > Saat kita membuat tipe data generic di class, tipe data tersebut bisa digunakan diseluruh bagian Class
+    > Namun, kadang kita tidak membuat class, kita hanya membuat function misalnya
+    > Generic juga bisa digunakan pada function, kita bisa menggunakan cara yang sama dengan menempatkan tanda <> setelah nama function
