@@ -1,0 +1,5 @@
+Generic class 
+    > generic bisa ditambahkan ketika membuat class, caranya bisa menggunakan tanda <> (diamond) setelah nama class, lalu tentukan tipe data generic nya
+    > Tipe data generic tersebut bisa digunakan pada class, dan bisa diubah tipenya ketika kita membuat object dari Generic Class tersebut
+    > Saat kita membuat object dari Generic Class, kita wajib menentukan tipe data yang ingin kita gunakan untuk mengganti tipe data generic nya
+        > tipe data nya akan ditentukan ketika membuat object nya bukan saat membuat class nya
