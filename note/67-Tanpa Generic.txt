@@ -1,0 +1,6 @@
+Tanpa Generic
+    > Tanpa generic, saat kita ingin membuat class yang berisi tipe data yang bisa berbeda-berbeda
+    > maka kita harus menggunakan tipe data any
+
+
+    note : data ini tidak akan aman, karena bisa lolos, makanya di rekomendasikan menggunakan generic
