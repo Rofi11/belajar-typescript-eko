@@ -1,0 +1,6 @@
+Multiple Generic Type
+    > Tipe data generic bisa kita tambahkan lebih dari satu (bisa banyak), baik itu di class ataupun function
+    > Kita bisa tambahkan pemisah, (koma) didalam <> jika ingin menambhakan tipe data generic lebih dari satu
+
+note : 1. semakin banyak tipe data yang dikirim, semua harus di deklarasikan
+        2. sebaiknya kalo membuat banyak tipe data generic akan di gunakan didalam class nya, jika tidak lebih baik disesuaikan jumlah nya, karena sayang jika tidak di gunakan
