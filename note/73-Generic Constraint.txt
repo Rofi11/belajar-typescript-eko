@@ -1,0 +1,9 @@
+Generic Constraint
+    > Secara default, sat menggunakan generic type, kita bisa bebas menggunakan tipe data apapun
+    > Namun, kadang kita ingin membatasi jenis tipe data yang diperbolehkan
+    > Kita bisa menggunakan perintah extends TipeData pada Operator <>, yang artinya tipe data yang boleh digunakan hanyalah tipe data dari TipeData dan turunannya
+
+note : 1. bisa di buta kedalam class atau interface dan turunannya
+        2. ketika data sudah terscope kan dalam interface, tidak bisa menambahkan di luar interface secara langsung, harus menambahkan di dalam interface nya
+        3. tujuan dari Generic Constraint adalah membatasi tipe data dan apa saja yang ada didalam nya, lebih ke pengelompokan
+        4. berguna ketika mau membuat object dengan Generic class
