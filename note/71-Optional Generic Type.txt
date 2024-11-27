@@ -1,0 +1,4 @@
+Optional Generic Type
+    > Saat kita menggunakan generic type di class, lalu kita menggunakan generic type tersebut di constructor, kita tidak wajib menyebutkan tipe generic nya
+    > Typescript bisa secara otomatis mendekteksi tipe yang kita gunakan pada parameter constructor
+    > Namun jika kita tidak menggunakan tipe tersebut pada constructor, maka Typescript tidak bisa menggunakan secara otomatis
