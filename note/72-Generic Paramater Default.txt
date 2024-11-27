@@ -1,0 +1,7 @@
+Generic Parameter Default
+    > Saat kita menggunakan generic data type, kita bisa menentukan tipe data default jika tidak menyebutkan tipe data
+    > Kita bisa gunakan = tipe data didalam operator <>
+
+note : 1. kalo tidak di declare tipe data nya, maka default tipe data nya adalah any
+        2. ketika di tentukan default nya, saat memanggil class dan tidak menentukan tipe generic nya otomatis menggunakan default nya
+        3. digunakan ketika kita tau tipe data pertama nya harus apa
