@@ -1,0 +1,26 @@
+Generic Collection
+    > Sebelum nya kita pernah menggunakan tipe data Array, dimana Array sebenarnya adalah tipe data Generic, oleh karena itu kita bisa menggunakan Array<tipe> ketika membuat Array
+    > Selain Array, ada tipe data Collection (kumpulan data) yang berupa tipe data Generic, nyaitu :
+    > Set<T>, nyaitu tipe data collection yang berisi data unique dan tidal ada jaminan urutan data
+    > Map<K,V> nyaitu tipe data collection yang berisi data key-value (kombinasi key dan value)
+        > note : di map key nya bisa diisi apapun, tidak akan otomatis seperti array berisi angka untuk key nya
+
+
+Array<T>
+    > Generic type Array<T> sebenarnya merupakan representasi dari tipe data array di javascript
+    > Oleh karena itu, Cara penggunaanya sama seperti array di javascript
+    > cara penggunaan, dan semua function nya sama seperti array
+    > https://developer.mozila.org/en-US/docs/Web/Javascript/Reference/Global_Object/Array
+
+
+Set<T>
+    > generic Type Set<T> sebenarnya merupakan representasi dari tipe data Set di javascript
+    > Oleh karena itu, cara penggunaanya sama seperti Set di javascript
+    > https://developer.mozila.org/en-US/docs/Web/Javascript/Reference/Global_Object/Set
+        > note : 1. karena tipe data yang di terima unik, tipe data yang sama tidak akan di masukan, tidak sama seperti array
+                2. tidak punya key nya
+
+Map<K,V>
+    > Generic type Map<K,V> sebenarnya merupakan representasi dari tipe data Map di javascript
+    > Oleh karena itu, cara penggunaanya sama seperti Map di javascript
+    > https://developer.mozila.org/en-US/docs/Web/Javascript/Reference/Global_Object/Map
