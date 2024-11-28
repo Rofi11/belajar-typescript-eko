@@ -1,0 +1,4 @@
+Generic Promise
+    > Saat Kita menggunakan Javascript Async, kita akan sering bertemu dengan Promise
+    > Typescript menggunakan Generic sebagai representasi unutk tipe data Promise<T>
+    > Oleh karena itu, ketika membuat function yang mengembalikan Promise, kita bisa menentukan tipe data apa yang akan di kembalikan oleh Promise

@@ -1,0 +1,53 @@
+1 - 37 : Pengantar Typescript
+    > menjelaskan materi- materi dasar di Typescript
+    > tipe data primitif
+    > array
+    > tipe data any
+    > union type
+    > type alias
+    > object type
+    > optional properties
+    > enum
+    > null - undefined
+    > interface (dan kelompokan nya)
+    > function
+    > intersection type (menggabungkan 2 interface)
+    > type assertions
+    > if conditional dan switch conditional
+    > ternary operator
+    > looping (do while, for loop, while)
+    > javascript feature 
+    > dll
+39 - 62 : Typescript Object Oriented Programming
+    > Pengenalan OOP
+    > Class
+    > constructor
+    > Properties
+    > Method (fucntion dalam class)
+    > Inheritance
+    > interface Inheritance
+    > Super constructor (memanggil constructor parent)
+    > method - overriding
+    > visibilty
+    > parameter properties
+    > instance of
+    > getter - setter
+    > polymorphism
+    > type cast
+    > abstract class
+    > static class 
+    > relationship
+    > error handling
+    > namespace (pengroupan module agar lebih mudah di panggil untuk digunakan saat di butuhkan, biasanya function code yang banyak)
+64 - 75 : Typecript Generic
+    > Typecript generic
+    > Tanpa Generic (code tanpa generic)
+    > Generic Class
+    > Generic function
+    > Multiple Generic Type
+    > Optional Generic Type
+    > Generic Parameter Default
+    > Generic Constraint
+    > Generic Collection
+    > Generic Promise
+
