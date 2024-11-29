@@ -50,4 +50,5 @@
     > Generic Constraint
     > Generic Collection
     > Generic Promise
-
+79 - 90 : Typecript Validation
+    > Pengenalan Validation

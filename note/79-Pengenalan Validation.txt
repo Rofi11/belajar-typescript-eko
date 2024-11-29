@@ -1,0 +1,15 @@
+Pengenalan Validation
+    > Saat kita membuat aplikasi, validasi adalah salah satu hal yang sangat penting unutk kita lakukan
+    > validasi memastikan bahwa data sudah dalam keadaan benar atau sesuai sebelum di proses
+    > Validasi dilakukan untuk menjaga agar data kita tetap konsisten dan tidak rusak
+    > validasi biasanya dilakukan di kode aplikasi, dan di constraint table di database
+
+alur validasi
+    > user --> Web --> Validasi --> Logic aplikasi --> penyimpanan ke dalam database
+
+Bagaimana Proses Validasidi typescript
+    > Typescript sayangnya tidak menyediakan library untuk validasi, oleh karena itu kita perlu melakukan validasi secara manual
+    > Tapi untungnya, banyak library yang dibuat oleh komunitas programmer typescript yang bisa kita gunakan untuk mempermudah kita melakukan validasi
+    > Salah satu nya library yang populer unutk melakukan validasi adalah library Zod
+    > https://zod.dev/
+    > di kelas ini kita akan menggunakan library ZOd unutk belajar melakukan validasi
