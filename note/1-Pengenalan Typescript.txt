@@ -36,3 +36,7 @@ Keuntungan menggunakan Typescript
 4. untuk Compile
     1. untuk hanya test ==> npm test nama file test
     2. compile jadi js ==> npx tsc
+
+5. menambahkan libary zod (untuk belajar membuat validation)
+    > ubah di tsconfig.json "moduleResolution": "node10"  menjadi "moduleResolution": "node" 
+    > lalu npm install zod
