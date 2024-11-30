@@ -1,0 +1,16 @@
+Validation
+    > Zod mendukung validasi unutk banyak tipe data Typescript, seperti string, number, boolean, dan lain2
+    > untuk menggunakan Zod, kita cukup import z dari package zod
+    > Selanjutnya, kita bisa menggunakan method-method sesuai dengan tipe datanya
+
+Schema
+    > Hal pertama yagn perlu kita lakukan untuk melakukan validasi adalah membuat Schema
+    > Schema adalah aturan-aturan yang sudah kita tentukan
+    > Setelah membuat Schema, baru selanjutnya kita bisa melakukan validasi data menggunakan schema tersebut
+        > cara validasi nya kita menggunakan parse
+
+validasi tipe data
+    > String : https://zod.dev/?id=strings
+    > Number : https://zod.dev/?id=numbers
+    > Boolean : https://zod.dev/?id=booleans
+
