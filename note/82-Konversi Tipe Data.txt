@@ -1,0 +1,7 @@
+Konversi Tipe Data
+    > Saat kita membuat schema untuk tipe data seperti string, number, boolean, kita harus melakukan parse() menggunakan tipe yang sama (akan langsung mengkonversi tipe data nya)
+    > Kadang - kadang input dari pengguna bisa menggunakan tipe data berbeda, contoh input number berupa string "1234", input boolena berupa string "true"
+    > Zod memiliki object bernama coerce yang bisa digunakan untuk melakukan konversi tipe data secara otomatis
+
+    note : 
+    1. tidak semua tipe data dapat di konversi hanya tipe data primitif yang bisa di konversi seperti: string, number, boolean, dll
