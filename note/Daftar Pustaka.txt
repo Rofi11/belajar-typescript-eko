@@ -54,3 +54,4 @@
     > Pengenalan Validation
     > konversi tipe data (secara otomatis)
     > date Validation
+    > Validation Error (how to handle error di libary zod)

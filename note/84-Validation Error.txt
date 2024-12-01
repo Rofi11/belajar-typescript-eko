@@ -1,0 +1,2 @@
+Validation Error
+    > Jika terjadi errro karena data tidak valid, maka hasil zod akan melakukan thorw ZodError
