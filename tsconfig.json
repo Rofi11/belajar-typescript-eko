@@ -1,12 +1,7 @@
 {
   /* include : memasukan data apa saja
    ** : semua yang ada di folder src, * : dengan sub file nya (memasukan semua folder yg mau di compile di sini)*/
-  "include": [
-    "src/**/*",
-    "test/**/*",
-    "validation/81-validation.test.ts",
-    "validation/82-konversi-tipe-data.test.ts"
-  ],
+  "include": ["src/**/*", "test/**/*", "validation/**/*"],
 
   /* exclude :  folder apa saja yang tidak akan di compile
   tidak memasukan semua yang ada path .test.ts*/

@@ -1,0 +1,4 @@
+Date Validation
+    > Zod juga bisa digunakan untuk melakukan validasi tipe data Date
+    > https://zod.dev/?id=dates
+    > bisa menggunakan coerce (untuk otomatis konversi)

@@ -52,3 +52,5 @@
     > Generic Promise
 79 - 90 : Typecript Validation
     > Pengenalan Validation
+    > konversi tipe data (secara otomatis)
+    > date Validation
