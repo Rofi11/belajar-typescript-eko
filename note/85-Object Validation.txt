@@ -1,0 +1,11 @@
+Object Validation
+    > Saat kita membuat aplikasi, kita sering sekali membuat Javascript Object
+    > Untungnya Zodjuga bisa digunakan untuk melakukan validasi Javascript Object, sehingga mempermudah kita untuk melakukan sekaligus ke semua field di Javascript Object
+    > https://zod.dev/?id=objects
+
+note : 
+    1. jika pengirimina data, tidak sesuai dengan schema data maka akan langsung di ignore data yang tidak diharapkan nya
+
+Nested Object
+    > Zod juga bisa digunakan untuk memvalidasi nested object
+    > Saat kita ingin memvalidasi nested object, kita harus tentukan object schema nya juga
