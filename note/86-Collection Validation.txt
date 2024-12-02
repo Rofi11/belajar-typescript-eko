@@ -1,0 +1,5 @@
+Collection Validation
+    > Selain Object, kita juga bisa melakukan validasi untuk tipe Collection, seperti Array, Set, dan Map
+    > https://zod.dev/?id=arrays
+    > https://zod.dev/?id=sets
+    > https://zod.dev/?id=maps
