@@ -1,0 +1,3 @@
+Custom Validation Message
+    > Saat Kita menggunakan Zod, secara default sudah terdapat message error
+    > Namun, jika kita ingin ubah message error nya, kita bisa ubah ketika menggunakan method di schema
