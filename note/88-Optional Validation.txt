@@ -1,0 +1,5 @@
+Optional Validation
+    > Secara Default. saat membuat schema, data akan selalu wajib diisi
+    > namun kadang mungkin kita butuh data yang tidak wajib, atau optional
+    > Kita bisa menggunakan optional() method pada schema, untuk menjadikan bahwa field tersebut tidak wajib
+        > jadi jika terkirim undefined akan tetap lolos, dan tidak akan memunculkan error

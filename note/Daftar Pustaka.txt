@@ -58,3 +58,4 @@
     > Object Validation (1 object dan nested object)
     > Collection Validation (membuat validation untuk array, set dan map)
     > Custom Validation Message
+    > Optional Validation (membuat schema menjadi tidak mandatory)
