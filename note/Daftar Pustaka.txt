@@ -60,3 +60,4 @@
     > Custom Validation Message
     > Optional Validation (membuat schema menjadi tidak mandatory)
     > Transform (memanipulasi data setelah validation parse)
+    > Custom Validation error (use transform in library zod)

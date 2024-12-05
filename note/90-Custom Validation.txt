@@ -1,0 +1,8 @@
+Custom Validation
+    > Saat menggunakan transform(), kita bisa menambahkan parameter kedua nyaitu RefinementCtx dimana bisa kita gunakan untuk menambahkan issue jika terjadi masalah (custom validation error)
+    > hal ini bisa digunakan sebagai custom validation
+        > isi dari RefinementCtx
+        export declare type RefinementCtx = {
+            addIssue: (arg: IssueData) => void;
+            path: (String | number) []
+        }
