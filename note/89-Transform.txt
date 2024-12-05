@@ -1,0 +1,4 @@
+Transform
+    > Saat membuta schema, terdapat function bernama transform yang bisa kita gunakan unutk melakukan transformasi data setelah proses parse selesai
+        > kita bisa melakukan manipulasi data setelah proses parse nya (validation data nya) selesai
+        > ini cocok dipakai jika data yang mau dikirim kedalam database harus ditransform contoh: uppercase atau lowercase,dll

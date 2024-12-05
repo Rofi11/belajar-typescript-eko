@@ -59,3 +59,4 @@
     > Collection Validation (membuat validation untuk array, set dan map)
     > Custom Validation Message
     > Optional Validation (membuat schema menjadi tidak mandatory)
+    > Transform (memanipulasi data setelah validation parse)
