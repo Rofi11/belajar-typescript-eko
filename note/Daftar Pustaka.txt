@@ -61,3 +61,5 @@
     > Optional Validation (membuat schema menjadi tidak mandatory)
     > Transform (memanipulasi data setelah validation parse)
     > Custom Validation error (use transform in library zod)
+92-124 : Typescript Restfull API
+    > Requirement Restfull API

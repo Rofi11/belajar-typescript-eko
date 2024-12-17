@@ -1,0 +1,45 @@
+Requirement
+    > Pada kelas ini , kita akan coba membuat RESTful API untuk COntact Management, dimana RESTful API yang kaan kita buat memiliki fitur sebagai berikut:
+    > User Management
+    > Contact Management
+    > Address Management
+
+User management Requirement
+    > User data
+        > Username --> Unique
+        > Password
+        > Name
+
+        User API
+            > Register User
+            > Login User
+            > Update User
+            > Get User
+            > Logout User
+
+Contact data
+    > First Name
+    > Last Name
+    > Email
+    > Phone
+
+        Contact API
+            > Create Contact
+            > Update Contact
+            > Get Contact
+            > Search Contact
+            > Remove Contact
+
+Contact Address data
+    > street
+    > City
+    > Province
+    > Country
+    > Postal Code
+
+        Address API
+        > Create Address
+        > Update Address
+        > Get Address
+        > List Address
+        > Remove Address
