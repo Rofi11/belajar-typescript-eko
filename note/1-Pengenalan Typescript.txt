@@ -40,3 +40,28 @@ Keuntungan menggunakan Typescript
 5. menambahkan libary zod (untuk belajar membuat validation)
     > ubah di tsconfig.json "moduleResolution": "node10"  menjadi "moduleResolution": "node" 
     > lalu npm install zod
+
+// dependecies untuk Restfull API
+6. menambahkan express js (untuk membuat Restfull API) --> web framework
+    > npm install express
+    > npm install --save-dev @types/express --> auto complete di typescript
+
+7. menambahkan ORM (object relational mapping) nya menggunakan Prisma
+    > npm install --save-dev prisma
+    > https://wwww.prisma.io/
+
+8. menambahkan logging/logger (membuat custom logging data)
+    > npm install winston
+    > https://www.npmjs.com/package/winston
+
+9. menambahkan package BCrypt (hashing password)
+    > npm install bcrypt
+    > npm install --save-dev @types/bcrypt
+    > https://www.npmjs.com/package/bcrypt
+
+10. menambahkan package UUID (optional, utk sementara tidak di pake di project ini ,pas real baru pakai)
+    > npm install UUID
+    > npm install --save-dev @types/UUID
+    > https://www.npmjs.com/package/uuid
+
+    

@@ -63,3 +63,4 @@
     > Custom Validation error (use transform in library zod)
 92-124 : Typescript Restfull API
     > Requirement Restfull API
+    > install library , catatan di 1-Pengenalan Typescript
