@@ -67,3 +67,4 @@
     > User API Apec (kontrak kerja API)
         --> di simpan di folder doc
         --> buka preview filr md =  ctrl + shift + v
+    > Set-up database dan Set Up ORM PRISMA

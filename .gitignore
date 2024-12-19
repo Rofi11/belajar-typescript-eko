@@ -1,2 +1,3 @@
 # mengabaikan folder
 node_modules/
+.env
