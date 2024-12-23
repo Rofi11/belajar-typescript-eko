@@ -12,3 +12,13 @@ datasource db {
   provider = "mysql"
   url      = env("DATABASE_URL")
 }
+
+model User {
+  username String @id @db.VarChar(100) // @id nanit jadi primary keys
+  password String @db.VarChar(100)
+  name String @db.VarChar(100)
+  // tidak wajib ada (buat optinal) --> artinya cuman bisa login sekali, ketika login lagi token nya akan di ganti lagi
+  token String? @db.VarChar(100)
+
+  @@map("users") // utk mengenerate nama table nya
+}

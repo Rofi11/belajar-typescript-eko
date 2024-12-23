@@ -1,0 +1,5 @@
+User Model
+    > cara generate migration dan folder migration nya 
+        > npx prisma migrate dev
+    > buat model nya di schema.prisma
+    > tambahkan extension prisma, agar mempermudah icon dan suggest nya
