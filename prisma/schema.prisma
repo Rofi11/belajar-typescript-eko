@@ -38,5 +38,24 @@ model Contact {
   user User @relation(fields: [username], references: [username])
   // field utk model ini, reference, ke field yang di tuju di model lain
 
+  // tanda membuat penampung relation nya untuk one to many
+  adressess Address[]
+
   @@map("contacts")
+}
+
+model Address {
+
+  id Int @id @default(autoincrement())
+  street String? @db.VarChar(255)
+  city String? @db.VarChar(255)
+  provience String? @db.VarChar(255)
+  country String @db.VarChar(255)
+  postal_code String @db.VarChar(255)
+  contact_id Int
+
+  // membuat relation one to many ke contact
+  contact Contact @relation(fields: [contact_id], references: [id])
+
+  @@map("addresses")
 }

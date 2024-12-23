@@ -3,3 +3,8 @@ User Model
         > npx prisma migrate dev
     > buat model nya di schema.prisma
     > tambahkan extension prisma, agar mempermudah icon dan suggest nya
+
+Cek nanti di db
+    > set default DB nya
+    > show tables
+    > desc nama_tables ,e.g : desc users

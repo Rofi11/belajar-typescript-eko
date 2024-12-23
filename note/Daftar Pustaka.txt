@@ -68,3 +68,4 @@
         --> di simpan di folder doc
         --> buka preview filr md =  ctrl + shift + v
     > Set-up database dan Set Up ORM PRISMA
+    > membuat user, contact, address model di schema.prisma dan menambahkan extension prisma
