@@ -20,5 +20,23 @@ model User {
   // tidak wajib ada (buat optinal) --> artinya cuman bisa login sekali, ketika login lagi token nya akan di ganti lagi
   token String? @db.VarChar(100)
 
+  // Relasi one to many (1 user bsia mememilki banyak contact)
+  contacts Contact[]
+
   @@map("users") // utk mengenerate nama table nya
+}
+
+model Contact {
+  id Int @id @default(autoincrement()) //@default utk milih kaya autoincrement
+  first_name String @db.VarChar(100)
+  last_name String? @db.VarChar(100)
+  email String? @db.VarChar(100)
+  phone String? @db.VarChar(100)
+  username String @db.VarChar(100)
+
+  // membuat relasi one to many
+  user User @relation(fields: [username], references: [username])
+  // field utk model ini, reference, ke field yang di tuju di model lain
+
+  @@map("contacts")
 }
