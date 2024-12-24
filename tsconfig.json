@@ -1,7 +1,12 @@
 {
   /* include : memasukan data apa saja
    ** : semua yang ada di folder src, * : dengan sub file nya (memasukan semua folder yg mau di compile di sini)*/
-  "include": ["src/**/*", "test/**/*", "validation/**/*"],
+  "include": [
+    "src/**/*",
+    "test/**/*",
+    "validation/**/*",
+    "src-application/**/*"
+  ],
 
   /* exclude :  folder apa saja yang tidak akan di compile
   tidak memasukan semua yang ada path .test.ts*/
@@ -11,6 +16,7 @@
   // ],
 
   "compilerOptions": {
+    "types": ["jest", "node"],
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
     /* Projects */

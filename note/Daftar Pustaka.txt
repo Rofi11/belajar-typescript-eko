@@ -69,5 +69,7 @@
         --> buka preview filr md =  ctrl + shift + v
     > Set-up database dan Set Up ORM PRISMA
     > membuat user, contact, address model di schema.prisma dan menambahkan extension prisma
-    > set up project untuk API di 106
+    > set up project untuk API di src application di 106
         > membuat folder application untuk menampung logic prisma, logging, dan web express
+        > folder nya application, controller, error, model, route, service, validation, middleware (note 107 Register User api dan Preparation, route)
+    > set up unit test di test-application

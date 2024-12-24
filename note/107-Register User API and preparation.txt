@@ -1,0 +1,30 @@
+Preparation di src application
+    > membuat folder controller (menampung request, menjadi handler web nya)
+    > membuat folder service (penampung logic bisnis nya)
+    > membuat folder model (menampung data dan type model, untuk membuat response)
+    > membuat folder validation (penampung logic untuk validation data)
+    > membuat folder application (logging, memasang prismaClient (komunikasi database), web.ts(utk expreess js, root router))
+    > membuat folder middleware (untuk komunikasi data)
+    > membuat folder unit test (test-application)
+    > membuat folder route (untuk router apps komunikasi)
+    > membuat folder error (pengumpulan error handling)
+
+Tahapan nya
+    1. Membuat Model penampung type untuk meng genarelasikan type data
+    2. Membuat service bisnis logic
+    3. Membuat validation untuk pengecekan sebelum masuk kedalam database yang kan dikirim ke validation.ts (HELPER)
+    4. Membuat response error secara dinamis di folder response error
+    5. Membuat controller
+    6. Registrasiakan controller ke web.ts
+    7. Membuat Folder Router
+        > untuk public yang belum Registrasi
+        > untuk yagn sudah registrasi
+    8. Membuat folder middleware
+        > unutk komunikasi data
+    9. Membuat Unit test di folder test-application
+        > npm i @types/supertest -> untuk supertest nya
+            > tambahkan ini di tsconfig.ts
+            >  "types": ["jest", "node"],
+        > membuat test.utils.ts utk data static
+        > cek data registerRequest di model, file request utk data static kirim register
+        > user.test.ts utk unit test nya
