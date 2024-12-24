@@ -1,0 +1,9 @@
+Set-up project untuk API (membuat API logic apps)
+    1. membuat folder application didalam folder src
+    2. membuat file database.ts didalam folder application
+    3. export const prismaClinet = new PrismaClient() di database.ts
+    4. buat logging.ts untuk membuat logic logger
+        > set-up Prisma Log
+            > https://www.prisma.io/docs/concepts/components/prisma-client/working-with-prismaclient/logging
+        > disini kita akan menggunakan event-based logging
+    5. membuat web.ts untuk express.js, tempat restfull API
