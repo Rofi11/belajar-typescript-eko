@@ -1,0 +1,12 @@
+Login User API
+    > menambahkan package UUID --> yang digunakan untuk unique code
+    > npm install --save-dev @types/uuid
+    > https://www.npmjs.com/package/uuid
+
+Tahapan
+    1. buat model
+    2. ke service buat logic
+    3. siapkan validation
+    4. ke controller
+    5. ke public API
+    6. implementasi unit test

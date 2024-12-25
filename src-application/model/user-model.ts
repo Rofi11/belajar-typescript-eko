@@ -6,10 +6,17 @@ export type UserResponse = {
   token?: string;
 };
 
+// Register
 export type CreateUserRequest = {
   username: string;
   password: string;
   name: string;
+};
+
+// Login
+export type LoginUserRequest = {
+  username: string;
+  password: string;
 };
 
 export const registerRequest: CreateUserRequest = {

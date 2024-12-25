@@ -73,3 +73,5 @@
         > membuat folder application untuk menampung logic prisma, logging, dan web express
         > folder nya application, controller, error, model, route, service, validation, middleware (note 107 Register User api dan Preparation, route)
     > set up unit test di test-application
+    > Register User API
+    > Login USer API
