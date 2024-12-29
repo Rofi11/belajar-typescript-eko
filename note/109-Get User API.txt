@@ -1,0 +1,7 @@
+GET USER API
+    1. tidak ada data yang dikirim, tidak mempuat type
+    2. membuat middleware untuk menerima token, utk pencarian data
+    3. membuat router khusus yang menggunakan middleware authmiddleware (khusus yang sudah login)
+
+Note :
+ > karena dari bawaan express terkadang tidak ada 

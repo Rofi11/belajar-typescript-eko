@@ -6,14 +6,14 @@ export type UserResponse = {
   token?: string;
 };
 
-// Register
+// 107 -Register
 export type CreateUserRequest = {
   username: string;
   password: string;
   name: string;
 };
 
-// Login
+// 108 - Login
 export type LoginUserRequest = {
   username: string;
   password: string;

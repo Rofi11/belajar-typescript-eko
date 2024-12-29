@@ -1,3 +1,4 @@
+import { User } from "@prisma/client";
 import { prismaClient } from "../application/database";
 import { ResponseError } from "../error/response-error";
 import {
@@ -14,7 +15,7 @@ import { v4 as uuid } from "uuid";
 
 // agar lebih rapih kita kan membungkus semua kedalam bentuk class
 export class UserService {
-  // REGISTER
+  // 107 - REGISTER
   static async register(request: CreateUserRequest): Promise<UserResponse> {
     //1.validation data
     const user = Validation.validate(UserValidation.REGISTER, request);
@@ -43,7 +44,7 @@ export class UserService {
     return toUserResponse(User);
   }
 
-  // LOGIN
+  // 108- LOGIN
   static async login(request: LoginUserRequest): Promise<UserResponse> {
     //1.validation data
     const loginRequest = Validation.validate(UserValidation.LOGIN, request);
@@ -81,5 +82,10 @@ export class UserService {
     const response = toUserResponse(user);
     response.token = user.token!; //masukan token karena tidak kosong, kita paksa dengan tanda seru
     return response;
+  }
+
+  // 109 - GET DATA YANG SUDAH LOGIN
+  static async get(user: User): Promise<UserResponse> {
+    return toUserResponse(user);
   }
 }
