@@ -1,0 +1,5 @@
+Logout User API
+    > service
+    > controller
+    > route (api.ts)
+    > unit test

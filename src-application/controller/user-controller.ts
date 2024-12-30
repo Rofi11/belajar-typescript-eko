@@ -65,4 +65,17 @@ export class UserController {
       next(e);
     }
   }
+
+  // 111 - LOGOUT
+  static async logout(req: UserRequest, res: Response, next: NextFunction) {
+    // call data service
+    try {
+      await UserService.logout(req.user!); // karena type data optional, karena pasti jadi tambah tanda seru!
+      res.status(200).json({
+        data: "Data Sudah Terdelete",
+      });
+    } catch (e) {
+      next(e);
+    }
+  }
 }

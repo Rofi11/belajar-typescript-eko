@@ -11,3 +11,5 @@ apiRouter.use(authMiddleware);
 apiRouter.get("/api/users/current", UserController.getData);
 // 110 - Update API
 apiRouter.patch("/api/users/update", UserController.updateData);
+/// 111 - logput API
+apiRouter.delete("/api/users/logout", UserController.logout);
