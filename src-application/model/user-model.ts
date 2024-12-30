@@ -19,6 +19,12 @@ export type LoginUserRequest = {
   password: string;
 };
 
+// 110 - Update
+export type UpdateUserRequest = {
+  password?: string;
+  name?: string;
+};
+
 export const registerRequest: CreateUserRequest = {
   username: "test",
   password: "test",

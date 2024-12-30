@@ -1,4 +1,5 @@
 // membuat data static test
+import { User } from "@prisma/client";
 import { prismaClient } from "../src-application/application/database";
 import bcrypt from "bcrypt";
 import { v4 as uuid } from "uuid";
@@ -24,5 +25,20 @@ export class Usertest {
         token: "token",
       },
     });
+  }
+
+  //110 - utk mendapatkan data user
+  static async get(): Promise<User> {
+    const user = await prismaClient.user.findFirst({
+      where: {
+        username: "test",
+      },
+    });
+
+    if (!user) {
+      throw new Error("user does't found");
+    }
+
+    return user;
   }
 }

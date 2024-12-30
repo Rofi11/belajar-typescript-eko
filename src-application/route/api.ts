@@ -9,3 +9,5 @@ apiRouter.use(authMiddleware);
 
 // 109 - User API
 apiRouter.get("/api/users/current", UserController.getData);
+// 110 - Update API
+apiRouter.patch("/api/users/update", UserController.updateData);

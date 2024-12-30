@@ -1,0 +1,8 @@
+Update User API
+    1. membuat model
+    2. membuat validation
+    3. membuat service
+    4. membuat controller
+    5. membuat service
+    6. mmebuat route
+    7. membuat unit test

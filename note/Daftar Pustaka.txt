@@ -75,3 +75,27 @@
     > set up unit test di test-application
     > Register User API
     > Login USer API
+    > Get User API
+    > Update User API
+
+
+Dokumentasi Folder : 
+    > latihan typecript bab 1 - 3
+        1. dist = tempat hasil compiling ke javascript
+        2. note = semua catatan pelajaran
+        3. src = logic type, interface, tipe data primitif yang akan di export ke unit test
+        4. test = unit test
+        5. validation = unit test (khusus bab 3 typescript validation)
+    > latihan typecript bab 4, Tentang Prisma ORM dan Restfull API pakai express dan Transform
+        1. prisma = folder logic prisma dan schema database
+        2. src-application = structure folder penempatan logic API
+            > aplication = logic dasar dan alamat database
+            > controller = tempat penampung request dan response
+            > errors = tempat membuat class inheritance error
+            > middleware = alat bantu pengecekan data kiriman
+            > model = logic type dan interface untuk dijadikan tipe data parameter dan generic
+            > route = tempat pembuatan route API
+            > service = logic bisnis utama
+            > type = alat bantu type inheritance (agar tidak tertukar dengan yang custom)
+            > validation = logic validation untuk pengecekan data
+        3. test-application = unit test (khusus cek API)
