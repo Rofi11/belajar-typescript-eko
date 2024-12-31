@@ -42,3 +42,15 @@ export class Usertest {
     return user;
   }
 }
+// 112 - Class utk delete semua contact buatan unit test
+export class ContactTest {
+  static async deleteAll() {
+    await prismaClient.contact.deleteMany({
+      where: {
+        user: {
+          username: "test",
+        },
+      },
+    });
+  }
+}

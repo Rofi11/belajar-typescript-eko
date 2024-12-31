@@ -1,0 +1,7 @@
+Create Contact API
+    1. buat model
+    2. service
+    3. validation
+    4. controller
+    5. route (api.ts)
+    6. unit test

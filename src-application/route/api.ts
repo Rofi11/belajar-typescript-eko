@@ -2,6 +2,7 @@
 import express from "express";
 import { authMiddleware } from "../middleware/auth-middleware";
 import { UserController } from "../controller/user-controller";
+import { ContactController } from "../controller/contact-controller";
 
 export const apiRouter = express.Router();
 // 109 - cekin middleware
@@ -13,3 +14,5 @@ apiRouter.get("/api/users/current", UserController.getData);
 apiRouter.patch("/api/users/update", UserController.updateData);
 /// 111 - logput API
 apiRouter.delete("/api/users/logout", UserController.logout);
+/// 112 - Create Contact API
+apiRouter.post("/api/contacts", ContactController.create);
