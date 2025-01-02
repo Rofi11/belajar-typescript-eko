@@ -38,14 +38,14 @@ describe("POST /api/contacts", () => {
       .post("/api/contacts")
       .set("X-API-TOKEN", "token")
       .send({
-        first_name: "dasdw",
-        last_name: "jj",
+        first_name: "",
+        last_name: "",
         email: "eko",
         phone: "08999990899999089999908999990899999",
       });
 
     logger.debug(response.body);
-    expect(response.status).toBe(500);
-    expect(response.body.errors).toBe(undefined);
+    expect(response.status).toBe(400);
+    expect(response.body.errors).toBeDefined();
   });
 });

@@ -10,8 +10,9 @@ web.use(express.json()); // Middleware untuk parsing JSON
 // registraiskan router
 web.use(publicRouter);
 
-// registrasikan error
-web.use(errorMiddleware);
-
 // untuk get data yang sudah login
 web.use(apiRouter);
+
+// registrasikan error
+// harus selalu di akhir atau akan terjadi error di error handling nya tidak bisa menangkap error dengan benar
+web.use(errorMiddleware);

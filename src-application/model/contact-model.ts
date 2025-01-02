@@ -16,7 +16,7 @@ export type CreateContactRequest = {
 };
 
 // utk konversi dari prisma
-export function toContctResponse(contact: Contact): ContactResponse {
+export function toContactResponse(contact: Contact): ContactResponse {
   return {
     id: contact.id,
     first_name: contact.first_name,

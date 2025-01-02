@@ -1,0 +1,7 @@
+Contact GET API
+    1. service
+    2. controller
+    3. route (api.ts)
+    4. unit test
+        > buat helper create contact di test.utils.ts\
+        > dengan helper untuk mengambil contact, utk pengecekan data contact

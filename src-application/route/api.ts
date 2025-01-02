@@ -16,3 +16,5 @@ apiRouter.patch("/api/users/update", UserController.updateData);
 apiRouter.delete("/api/users/logout", UserController.logout);
 /// 112 - Create Contact API
 apiRouter.post("/api/contacts", ContactController.create);
+/// 113 - Get Contact API
+apiRouter.get("/api/contacts/:contactId(\\d+)", ContactController.get); // (\\d+) regex validation utk digit, :contactId = params
