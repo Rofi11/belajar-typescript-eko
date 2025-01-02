@@ -1,14 +1,16 @@
-import { User } from "@prisma/client";
+import { Contact, User } from "@prisma/client";
 import {
   ContactResponse,
   CreateContactRequest,
   toContactResponse,
+  UpdateContactRequest,
 } from "../model/contact-model";
 import { ContactValidation } from "../validation/contact-validation";
 import { Validation } from "../validation/validation";
 import { prismaClient } from "../application/database";
 import { logger } from "../application/logging";
 import { ResponseError } from "../error/response-error";
+import { UserValidation } from "../validation/user-validation";
 
 export class ContactService {
   static async create(
@@ -38,13 +40,16 @@ export class ContactService {
     return toContactResponse(contact);
   }
 
-  // get contact
-  static async get(user: User, id: number): Promise<ContactResponse> {
+  //114 - refactor code use function for search contact for get and update
+  static async checkContactMustExist(
+    username: string,
+    contactId: number
+  ): Promise<Contact> {
     // cari contact by id dan username agar pasti
-    const contact = await prismaClient.contact.findUnique({
+    const contact = await prismaClient.contact.findFirst({
       where: {
-        id: id,
-        username: user.username,
+        id: contactId,
+        username: username,
       },
     });
 
@@ -53,7 +58,39 @@ export class ContactService {
       throw new ResponseError(404, "Contact not found");
     }
 
+    return contact;
+  }
+
+  // get contact
+  static async get(user: User, id: number): Promise<ContactResponse> {
+    // cari contact by id dan username agar pasti
+    const contact = await this.checkContactMustExist(user.username, id);
     // return the promise
+    return toContactResponse(contact);
+  }
+
+  // 114 - Update Contact
+  static async update(
+    user: User,
+    request: UpdateContactRequest
+  ): Promise<ContactResponse> {
+    // validation
+    const updateRequest = Validation.validate(
+      ContactValidation.UPDATE,
+      request
+    );
+    // search contact
+    await this.checkContactMustExist(user.username, updateRequest.id);
+
+    // update ke database data nya
+    const contact = await prismaClient.contact.update({
+      where: {
+        id: updateRequest.id,
+        username: user.username,
+      },
+      data: updateRequest,
+    });
+    // return data yang sudah di update
     return toContactResponse(contact);
   }
 }

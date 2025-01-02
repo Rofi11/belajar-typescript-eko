@@ -21,7 +21,7 @@ export const authMiddleware = async (
     });
 
     if (user) {
-      req.user = user; // error karena di request bawwan express tidak ada property user, maka kita harus tambahkan, perlu ubah type data nya (buat manual)
+      req.user = user; // 109 - error karena di request bawwan express tidak ada property user, maka kita harus tambahkan, perlu ubah type data nya (buat manual)
       next();
       return;
     }

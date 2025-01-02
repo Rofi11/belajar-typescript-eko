@@ -8,7 +8,16 @@ export type ContactResponse = {
   phone?: string | null;
 };
 
+//112- create contact
 export type CreateContactRequest = {
+  first_name: string;
+  last_name?: string;
+  email?: string;
+  phone?: string;
+};
+//114 - Update contact
+export type UpdateContactRequest = {
+  id: number;
   first_name: string;
   last_name?: string;
   email?: string;

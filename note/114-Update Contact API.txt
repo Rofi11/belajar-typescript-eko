@@ -1,0 +1,7 @@
+UPDATE CONTACT API
+    1. model
+    2. validation
+    3. service
+    4. Controller
+    5. API ROUTE (api.ts)
+    6. unit test
