@@ -20,3 +20,5 @@ apiRouter.post("/api/contacts", ContactController.create);
 apiRouter.get("/api/contacts/:contactId(\\d+)", ContactController.get); // (\\d+) regex validation utk digit, :contactId = params
 // 114 - Update Contact API
 apiRouter.put("/api/contacts/:contactId(\\d+)", ContactController.update);
+// 114 - Remove Contact API
+apiRouter.delete("/api/contacts/:contactId(\\d+)", ContactController.remove);

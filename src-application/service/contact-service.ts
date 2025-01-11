@@ -93,4 +93,20 @@ export class ContactService {
     // return data yang sudah di update
     return toContactResponse(contact);
   }
+
+  // 115- REMOVE
+  static async remove(user: User, id: number): Promise<ContactResponse> {
+    // check contact
+    await this.checkContactMustExist(user.username, id);
+
+    // hapus contact
+    const contact = await prismaClient.contact.delete({
+      where: {
+        id: id,
+        username: user.username,
+      },
+    });
+
+    return toContactResponse(contact);
+  }
 }
