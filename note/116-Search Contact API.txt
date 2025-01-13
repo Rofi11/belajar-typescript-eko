@@ -1,0 +1,8 @@
+Search Contact API (paling kompleks karena bisa berubah rubah query params nya)
+    > Model
+        > buat file page (untuk menyimpan type paging)
+    > validation
+    > service
+    > controller
+    > API (api.ts)
+    > unit test

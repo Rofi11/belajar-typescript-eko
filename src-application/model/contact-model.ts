@@ -24,6 +24,15 @@ export type UpdateContactRequest = {
   phone?: string;
 };
 
+//116 - Search Contact
+export type SearchContactRequest = {
+  name?: string;
+  phone?: string;
+  email?: string;
+  page: number;
+  size: number;
+};
+
 // utk konversi dari prisma
 export function toContactResponse(contact: Contact): ContactResponse {
   return {
