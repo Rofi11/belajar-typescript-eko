@@ -1,0 +1,15 @@
+Create Adddress API
+    > Model => samakan dengan yang di schema prisma
+    > validation
+    > service
+    > controller
+    > API (api.ts)
+    > unit test
+
+
+alur utk pengecekan
+    1.api
+    2.controller
+    3.service
+    4.validation
+    5.model
