@@ -30,3 +30,8 @@ apiRouter.post(
   "/api/contacts/:contactId(\\d+)/addresess",
   AddressController.create
 );
+//118 - Get Address API
+apiRouter.get(
+  "/api/contacts/:contactId(\\d+)/addresess/:addressId(\\d+)",
+  AddressController.get
+);

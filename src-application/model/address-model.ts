@@ -20,6 +20,11 @@ export type CreateAddressRequest = {
   postal_code: string;
 };
 
+//118 - type untuk parameter, jika sudah kebanyakan parameter nya bisa di buat menjadi type object
+export type GetAddressRequest = {
+  id: number;
+  contact_id: number;
+};
 // utk konversi ke address response
 export function toAddressResponse(address: Address): AddressResponse {
   return {

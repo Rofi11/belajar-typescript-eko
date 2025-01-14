@@ -1,5 +1,5 @@
 // membuat data static test
-import { Contact, User } from "@prisma/client";
+import { Address, Contact, User } from "@prisma/client";
 import { prismaClient } from "../src-application/application/database";
 import bcrypt from "bcrypt";
 import { v4 as uuid } from "uuid";
@@ -92,5 +92,38 @@ export class AddressTest {
         },
       },
     });
+  }
+
+  //118 - helper create utk di get
+  static async create() {
+    //ambil contact
+    const contact = await ContactTest.get();
+    await prismaClient.address.create({
+      data: {
+        contact_id: contact.id,
+        street: "Jalan test",
+        city: "Kota test",
+        provience: "Provinsi test",
+        country: "Indonesia",
+        postal_code: "12345",
+      },
+    });
+  }
+
+  //118 - get address
+  static async get(): Promise<Address> {
+    const address = await prismaClient.address.findFirst({
+      where: {
+        contact: {
+          username: "test",
+        },
+      },
+    });
+
+    if (!address) {
+      throw new Error("Address is not found");
+    }
+
+    return address;
   }
 }

@@ -1,0 +1,10 @@
+Get Address API
+    > service
+    > Model (membuat type model untuk parameter) ==> dibiasakan jika sudah terlihat parameter banyak di bungkus menjadi object agar lebih mudah
+    > validation
+    > controller
+    > API (api.ts)
+    > unit test
+        > buat helper di test-utils
+            > untuk create (di simpan di beforeeach)
+            > untuk get (utk ambil AddressId)

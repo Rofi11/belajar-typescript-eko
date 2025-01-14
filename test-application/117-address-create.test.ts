@@ -3,7 +3,7 @@ import { AddressTest, ContactTest, Usertest } from "./tes.utils";
 import { web } from "../src-application/application/web";
 import { logger } from "../src-application/application/logging";
 
-describe("DELETE /api/contacts/:contactId", () => {
+describe("POST /api/contacts/:contactId/addresses", () => {
   beforeEach(async () => {
     await Usertest.create();
     await ContactTest.create();
