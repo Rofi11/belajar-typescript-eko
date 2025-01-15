@@ -36,6 +36,10 @@ export type UpdateAddressRequest = {
   country: string;
   postal_code: string;
 };
+
+//120 - Remove
+export type RemoveAddressRequest = GetAddressRequest; // karena sama
+
 // utk konversi ke address response
 export function toAddressResponse(address: Address): AddressResponse {
   return {
