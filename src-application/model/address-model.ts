@@ -25,6 +25,17 @@ export type GetAddressRequest = {
   id: number;
   contact_id: number;
 };
+
+//119 - Update
+export type UpdateAddressRequest = {
+  id: number;
+  contact_id: number;
+  street?: string;
+  city?: string;
+  provience?: string;
+  country: string;
+  postal_code: string;
+};
 // utk konversi ke address response
 export function toAddressResponse(address: Address): AddressResponse {
   return {

@@ -35,3 +35,8 @@ apiRouter.get(
   "/api/contacts/:contactId(\\d+)/addresess/:addressId(\\d+)",
   AddressController.get
 );
+//119 - Update Address API
+apiRouter.put(
+  "/api/contacts/:contactId(\\d+)/addresess/:addressId(\\d+)",
+  AddressController.update
+);

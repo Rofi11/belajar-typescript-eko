@@ -3,6 +3,7 @@ import { UserRequest } from "../type/user-request";
 import {
   CreateAddressRequest,
   GetAddressRequest,
+  UpdateAddressRequest,
 } from "../model/address-model";
 import { AddressService } from "../service/address-service";
 
@@ -21,6 +22,8 @@ export class AddressController {
       next(e);
     }
   }
+
+  //118 - GET
   static async get(req: UserRequest, res: Response, next: NextFunction) {
     try {
       // ambil params
@@ -30,6 +33,23 @@ export class AddressController {
       };
 
       const response = await AddressService.get(req.user!, request);
+      res.status(200).json({
+        data: response,
+      });
+    } catch (e) {
+      next(e);
+    }
+  }
+
+  //119 - UPDATE
+  static async update(req: UserRequest, res: Response, next: NextFunction) {
+    try {
+      const request: UpdateAddressRequest = req.body as UpdateAddressRequest;
+      // ambil params
+      request.contact_id = Number(req.params.contactId);
+      request.id = Number(req.params.addressId);
+
+      const response = await AddressService.update(req.user!, request);
       res.status(200).json({
         data: response,
       });
