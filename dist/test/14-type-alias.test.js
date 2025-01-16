@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 describe("Tyoe Alias", () => {
     it("should support in typescript", () => {
         // membuat object
@@ -15,4 +17,3 @@ describe("Tyoe Alias", () => {
         console.info(product);
     });
 });
-export {};

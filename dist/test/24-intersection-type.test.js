@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 describe("Intersection Types", () => {
     it("should support intersction types", () => {
         // intersection types
@@ -8,4 +10,3 @@ describe("Intersection Types", () => {
         console.info(domain);
     });
 });
-export {};

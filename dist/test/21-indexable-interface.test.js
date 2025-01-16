@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 describe("Indexable Interface", () => {
     it("Should support indexable interface use number index in Typescript", () => {
         // interface array
@@ -15,4 +17,3 @@ describe("Indexable Interface", () => {
         expect(dictionary["address"]).toBe("Cimahi");
     });
 });
-export {};

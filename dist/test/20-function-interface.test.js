@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 describe("function Interface", () => {
     it("Should support  function interface in Typescript", () => {
         // menggunakan function interface (video 20)
@@ -19,4 +21,3 @@ describe("function Interface", () => {
         console.info(person.sayHello("Budi"));
     });
 });
-export {};

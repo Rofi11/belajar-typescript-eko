@@ -1,0 +1,12 @@
+Distribution File
+    > Kita akan menjalankan semua code nya dalam bentuk javascript
+        > jadi semua file ts nya kita perlu kompile menjadi js
+        > application dijalan kan wajib dalam bentuk javascript
+    > Cara menjalankan nya
+        1. membuat main.ts di folder src-application
+        2. compile dengan npx tsc
+        3. menjalankan file nya yang javascript yang berada di folder dist
+            > baca lagi di note dokumentasi nya
+            > ubah di tsconfig ==> "module": "ES6" menjadi ==> "module": "commonJs"
+            > menjalankan main.js nya yang sudah di kompile
+                > node dist/src-application/main.js => node diarahkan sampai ke main.js

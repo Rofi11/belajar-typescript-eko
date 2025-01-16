@@ -1,3 +1,4 @@
+"use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -7,6 +8,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 describe("generic Constraint", () => {
     // ini generic yang tipe data nya, hanya bisa menggunakan data dari interface Employee dan turunan nya (sudah akan terscope kan)
     // sudah tidak bisa nembak langsung seperti contoh2 sebelum nya
@@ -37,4 +39,3 @@ describe("generic Constraint", () => {
         // const data4 = new EmployeeData<string>("Eko"); // ini akan error karena nembak langsung tidak termasuk didalam employee dan turunan nya
     }));
 });
-export {};

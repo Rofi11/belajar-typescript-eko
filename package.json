@@ -4,7 +4,9 @@
   "description": "Belajar Typescript Dasar",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc",
+    "start": "node dist/src-application/main.js"
   },
   "jest": {
     "transform": {

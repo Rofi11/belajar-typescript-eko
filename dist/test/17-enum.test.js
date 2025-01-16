@@ -1,4 +1,6 @@
-import { CustomerType } from "../src/17-enum";
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const _17_enum_1 = require("../src/17-enum");
 describe("Enum", () => {
     it("Should suppport in Typescript about enum", () => {
         // cara menggunaka enum
@@ -6,7 +8,7 @@ describe("Enum", () => {
         const customer = {
             id: 1,
             name: "rofi",
-            type: CustomerType.GOLD,
+            type: _17_enum_1.CustomerType.GOLD,
         };
         console.info(customer);
     });

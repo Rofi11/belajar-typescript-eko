@@ -5,7 +5,8 @@
     "src/**/*",
     "test/**/*",
     "validation/**/*",
-    "src-application/**/*"
+    "src-application/**/*",
+    "test-application/**/*"
   ],
 
   /* exclude :  folder apa saja yang tidak akan di compile
@@ -14,7 +15,6 @@
   //   "src/**/*.test.ts",
   //   "test/**/*.test.ts"
   // ],
-
   "compilerOptions": {
     "types": ["jest", "node"],
     /* Visit https://aka.ms/tsconfig to read more about this file */
@@ -42,7 +42,7 @@
     // "moduleDetection": "auto",                        /* Control what method is used to detect module-format JS files. */
 
     /* Modules */
-    "module": "ES6" /* Specify what module code is generated. */,
+    "module": "CommonJS" /* Specify what module code is generated. */,
     // "rootDir": "./",                                  /* Specify the root folder within your source files. */
     "moduleResolution": "node" /* Specify how TypeScript looks up a file from a given module specifier. */,
     // "baseUrl": "./",                                  /* Specify the base directory to resolve non-relative module names. */

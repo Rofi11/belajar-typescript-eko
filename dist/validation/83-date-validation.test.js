@@ -1,7 +1,9 @@
-import { z } from "zod";
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const zod_1 = require("zod");
 describe("Date Validation", () => {
     it("should support date validation", () => {
-        const birthDateSchema = z.coerce
+        const birthDateSchema = zod_1.z.coerce
             .date()
             .min(new Date(1980, 0, 1))
             .max(new Date(2020, 0, 1)); //yy-mm-dd --> bulan start dari 0 karena new date

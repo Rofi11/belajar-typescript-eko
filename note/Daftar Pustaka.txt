@@ -78,6 +78,10 @@
     > Get User API
     > Update User API
     > Logout User API
+    > Semua api contact
+    > semua api address
+    > dokumentasi menjalankan compile dan menjalankan application in javascript berada di 122-Distribution file.txt
+        > khusus utk buat api di tsconfig ==> "module" menggunakan commonJs, jika utk latihan biasa agar js nya bisa dibaca pakai ES6 saja
 
 
 Dokumentasi Folder : 

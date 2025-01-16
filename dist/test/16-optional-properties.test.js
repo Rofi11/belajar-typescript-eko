@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // contoh Oprional properties mengikuti contoh type alias dan object type
 describe("Optional Properties", () => {
     it("should support in typescript", () => {
@@ -23,4 +25,3 @@ describe("Optional Properties", () => {
         console.info(product);
     });
 });
-export {};

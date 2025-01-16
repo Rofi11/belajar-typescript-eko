@@ -1,6 +1,9 @@
+"use strict";
 // ceritanya kita punya pulahan / ratusan function
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MathUtil = void 0;
 // grouping menggunakan namespace
-export var MathUtil;
+var MathUtil;
 (function (MathUtil) {
     // isi kode nya buat didalam sini
     MathUtil.PI = 3.14;
@@ -12,4 +15,4 @@ export var MathUtil;
         return total;
     }
     MathUtil.Sum = Sum;
-})(MathUtil || (MathUtil = {}));
+})(MathUtil || (exports.MathUtil = MathUtil = {}));

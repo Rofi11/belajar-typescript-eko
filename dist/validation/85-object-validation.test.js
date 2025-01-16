@@ -1,10 +1,12 @@
-import { z } from "zod";
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const zod_1 = require("zod");
 describe("Object Validation", () => {
     it("should can validate object", () => {
-        const loginSchema = z.object({
+        const loginSchema = zod_1.z.object({
             //masukan key dan value nya
-            username: z.string().email(),
-            password: z.string().min(3).max(20),
+            username: zod_1.z.string().email(),
+            password: zod_1.z.string().min(3).max(20),
         });
         // buat contoh data request nya
         // data yang tidak sesuai schema akan langsung di ignore
@@ -21,14 +23,14 @@ describe("Object Validation", () => {
     // Nested Object
     it("should can validate nested object", () => {
         // masukan key dan value nya
-        const createUserSchema = z.object({
-            id: z.string().max(100),
-            name: z.string().max(100),
-            address: z.object({
-                street: z.string().max(100),
-                city: z.string().max(100),
-                zip: z.string().max(10),
-                country: z.string().max(100),
+        const createUserSchema = zod_1.z.object({
+            id: zod_1.z.string().max(100),
+            name: zod_1.z.string().max(100),
+            address: zod_1.z.object({
+                street: zod_1.z.string().max(100),
+                city: zod_1.z.string().max(100),
+                zip: zod_1.z.string().max(10),
+                country: zod_1.z.string().max(100),
             }),
         });
         const request = {

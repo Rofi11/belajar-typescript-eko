@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 describe("Type Assertions", () => {
     it("Shouls support type assertions", () => {
         // conoth mengambil data dari javascript yg tidak ada deklare nya, atau membuat pakai tipe any
@@ -11,4 +13,3 @@ describe("Type Assertions", () => {
         console.info(person2);
     });
 });
-export {};

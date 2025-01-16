@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 describe("Interface", () => {
     it("Should support interface in Typescript", () => {
         // menggunakan interface
@@ -12,4 +14,3 @@ describe("Interface", () => {
         console.info(seller);
     });
 });
-export {};
