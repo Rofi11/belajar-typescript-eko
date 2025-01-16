@@ -143,4 +143,24 @@ export class AddressService {
 
     return toAddressResponse(address);
   }
+
+  // 121 - List Address
+  // return nya di kirim dalam bentuk array generic
+  static async list(
+    user: User,
+    contactId: number
+  ): Promise<Array<AddressResponse>> {
+    // check contact
+    await ContactService.checkContactMustExist(user.username, contactId);
+
+    // cari seluruh address by contact id
+    const addresses = await prismaClient.address.findMany({
+      where: {
+        contact_id: contactId,
+      },
+    });
+
+    // retun ke bentuk nya pakai map agar semua nya berubah sesuai bentuk nya
+    return addresses.map((address) => toAddressResponse(address));
+  }
 }

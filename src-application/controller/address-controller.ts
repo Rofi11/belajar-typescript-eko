@@ -59,7 +59,7 @@ export class AddressController {
     }
   }
 
-  //118 - REMOVE
+  //120 - REMOVE
   static async remove(req: UserRequest, res: Response, next: NextFunction) {
     try {
       // ambil params
@@ -71,6 +71,21 @@ export class AddressController {
       const response = await AddressService.remove(req.user!, request);
       res.status(200).json({
         data: "ok",
+      });
+    } catch (e) {
+      next(e);
+    }
+  }
+
+  //121 - list
+  static async list(req: UserRequest, res: Response, next: NextFunction) {
+    try {
+      // ambil params
+      const contactId = Number(req.params.contactId);
+
+      const response = await AddressService.list(req.user!, contactId);
+      res.status(200).json({
+        data: response,
       });
     } catch (e) {
       next(e);

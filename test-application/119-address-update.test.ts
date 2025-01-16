@@ -22,7 +22,7 @@ describe("PUT /api/contacts/:contactId/addresses/:addressId", () => {
     const address = await AddressTest.get();
 
     const response = await supertest(web)
-      .put(`/api/contacts/${contact.id}/addresess/${address.id}`)
+      .put(`/api/contacts/${contact.id}/addresses/${address.id}`)
       .set("X-API-TOKEN", "token")
       .send({
         street: "Jalan belum ada",
@@ -49,7 +49,7 @@ describe("PUT /api/contacts/:contactId/addresses/:addressId", () => {
     const address = await AddressTest.get();
 
     const response = await supertest(web)
-      .put(`/api/contacts/${contact.id}/addresess/${address.id}`)
+      .put(`/api/contacts/${contact.id}/addresses/${address.id}`)
       .set("X-API-TOKEN", "token")
       .send({
         street: "Jalan belum ada",
@@ -71,7 +71,7 @@ describe("PUT /api/contacts/:contactId/addresses/:addressId", () => {
     const address = await AddressTest.get();
 
     const response = await supertest(web)
-      .put(`/api/contacts/${contact.id}/addresess/${address.id + 1}`)
+      .put(`/api/contacts/${contact.id}/addresses/${address.id + 1}`)
       .set("X-API-TOKEN", "token")
       .send({
         street: "Jalan belum ada",
@@ -93,7 +93,7 @@ describe("PUT /api/contacts/:contactId/addresses/:addressId", () => {
     const address = await AddressTest.get();
 
     const response = await supertest(web)
-      .put(`/api/contacts/${contact.id + 1}/addresess/${address.id}`)
+      .put(`/api/contacts/${contact.id + 1}/addresses/${address.id}`)
       .set("X-API-TOKEN", "token")
       .send({
         street: "Jalan belum ada",

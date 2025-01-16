@@ -21,7 +21,7 @@ describe("GET /api/contacts/:contactId/addresses/:addressId", () => {
     const contact = await ContactTest.get();
     const address = await AddressTest.get();
     const response = await supertest(web)
-      .get(`/api/contacts/${contact.id}/addresess/${address.id}`)
+      .get(`/api/contacts/${contact.id}/addresses/${address.id}`)
       .set("X-API-TOKEN", "token");
 
     logger.debug(response.body);
@@ -39,7 +39,7 @@ describe("GET /api/contacts/:contactId/addresses/:addressId", () => {
     const contact = await ContactTest.get();
     const address = await AddressTest.get();
     const response = await supertest(web)
-      .get(`/api/contacts/${contact.id}/addresess/${address.id + 1}`)
+      .get(`/api/contacts/${contact.id}/addresses/${address.id + 1}`)
       .set("X-API-TOKEN", "token");
 
     logger.debug(response.body);
@@ -52,7 +52,7 @@ describe("GET /api/contacts/:contactId/addresses/:addressId", () => {
     const contact = await ContactTest.get();
     const address = await AddressTest.get();
     const response = await supertest(web)
-      .get(`/api/contacts/${contact.id + 1}/addresess/${address.id}`)
+      .get(`/api/contacts/${contact.id + 1}/addresses/${address.id}`)
       .set("X-API-TOKEN", "token");
 
     logger.debug(response.body);

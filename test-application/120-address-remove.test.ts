@@ -21,7 +21,7 @@ describe("DELETE /api/contacts/:contactId/addresses/:addressId", () => {
     const contact = await ContactTest.get();
     const address = await AddressTest.get();
     const response = await supertest(web)
-      .delete(`/api/contacts/${contact.id}/addresess/${address.id}`)
+      .delete(`/api/contacts/${contact.id}/addresses/${address.id}`)
       .set("X-API-TOKEN", "token");
 
     logger.debug(response.body);
@@ -34,7 +34,7 @@ describe("DELETE /api/contacts/:contactId/addresses/:addressId", () => {
     const contact = await ContactTest.get();
     const address = await AddressTest.get();
     const response = await supertest(web)
-      .delete(`/api/contacts/${contact.id}/addresess/${address.id + 1}`)
+      .delete(`/api/contacts/${contact.id}/addresses/${address.id + 1}`)
       .set("X-API-TOKEN", "token");
 
     logger.debug(response.body);
@@ -47,7 +47,7 @@ describe("DELETE /api/contacts/:contactId/addresses/:addressId", () => {
     const contact = await ContactTest.get();
     const address = await AddressTest.get();
     const response = await supertest(web)
-      .delete(`/api/contacts/${contact.id + 1}/addresess/${address.id}`)
+      .delete(`/api/contacts/${contact.id + 1}/addresses/${address.id}`)
       .set("X-API-TOKEN", "token");
 
     logger.debug(response.body);

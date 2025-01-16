@@ -32,21 +32,26 @@ apiRouter.get("/api/contacts", ContactController.search);
 // ADDRESS API
 //117 - Create Address API
 apiRouter.post(
-  "/api/contacts/:contactId(\\d+)/addresess",
+  "/api/contacts/:contactId(\\d+)/addresses",
   AddressController.create
 );
 //118 - Get Address API
 apiRouter.get(
-  "/api/contacts/:contactId(\\d+)/addresess/:addressId(\\d+)",
+  "/api/contacts/:contactId(\\d+)/addresses/:addressId(\\d+)",
   AddressController.get
 );
 //119 - Update Address API
 apiRouter.put(
-  "/api/contacts/:contactId(\\d+)/addresess/:addressId(\\d+)",
+  "/api/contacts/:contactId(\\d+)/addresses/:addressId(\\d+)",
   AddressController.update
 );
 //120 - Remove address api
 apiRouter.delete(
-  "/api/contacts/:contactId(\\d+)/addresess/:addressId(\\d+)",
+  "/api/contacts/:contactId(\\d+)/addresses/:addressId(\\d+)",
   AddressController.remove
+);
+//120 - Remove address api
+apiRouter.get(
+  "/api/contacts/:contactId(\\d+)/addresses",
+  AddressController.list
 );

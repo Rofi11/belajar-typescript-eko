@@ -19,7 +19,7 @@ describe("POST /api/contacts/:contactId/addresses", () => {
     // ambil data contact di database
     const contact = await ContactTest.get();
     const response = await supertest(web)
-      .post(`/api/contacts/${contact.id}/addresess`)
+      .post(`/api/contacts/${contact.id}/addresses`)
       .set("X-API-TOKEN", "token")
       .send({
         street: "Jalan belum ada",
@@ -43,7 +43,7 @@ describe("POST /api/contacts/:contactId/addresses", () => {
     // ambil data contact di database
     const contact = await ContactTest.get();
     const response = await supertest(web)
-      .post(`/api/contacts/${contact.id}/addresess`)
+      .post(`/api/contacts/${contact.id}/addresses`)
       .set("X-API-TOKEN", "token")
       .send({
         street: "Jalan belum ada",
@@ -62,7 +62,7 @@ describe("POST /api/contacts/:contactId/addresses", () => {
     // ambil data contact di database
     const contact = await ContactTest.get();
     const response = await supertest(web)
-      .post(`/api/contacts/${contact.id + 1}/addresess`)
+      .post(`/api/contacts/${contact.id + 1}/addresses`)
       .set("X-API-TOKEN", "token")
       .send({
         street: "Jalan belum ada",
