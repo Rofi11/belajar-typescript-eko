@@ -26,11 +26,11 @@ class UserService {
     static register(request) {
         return __awaiter(this, void 0, void 0, function* () {
             //1.validation data
-            const user = validation_1.Validation.validate(user_validation_1.UserValidation.REGISTER, request);
+            const userRegister = validation_1.Validation.validate(user_validation_1.UserValidation.REGISTER, request);
             // 2. mencari semua username dengan count
             const totalUserWithSameUsername = yield database_1.prismaClient.user.count({
                 where: {
-                    username: user_model_1.registerRequest.username,
+                    username: userRegister.username,
                 },
             });
             // 3.cek username yang sama
@@ -38,10 +38,10 @@ class UserService {
                 throw new response_error_1.ResponseError(400, "username already exist");
             }
             // 4.hashing password
-            user_model_1.registerRequest.password = yield bcrypt_1.default.hash(user_model_1.registerRequest.password, 10);
+            userRegister.password = yield bcrypt_1.default.hash(userRegister.password, 10);
             // 5.registrasikan kedalam database (simpan)
             const User = yield database_1.prismaClient.user.create({
-                data: user_model_1.registerRequest,
+                data: userRegister,
             });
             //6. konversi dari User ke userResponse, kita return kan data berhasil nya
             return (0, user_model_1.toUserResponse)(User);

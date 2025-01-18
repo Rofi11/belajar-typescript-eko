@@ -1,0 +1,7 @@
+Manual Test
+    > bisa menggunakan postman, vscode dan webstorm
+    
+
+note :
+    > kalo pakai npm run test, akan banyak error karena terjadi overlapping data|
+        > maka dari itu, buat nya gini "test": "jest --runInBand",

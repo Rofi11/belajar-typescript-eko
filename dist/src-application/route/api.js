@@ -40,5 +40,5 @@ exports.apiRouter.get("/api/contacts/:contactId(\\d+)/addresses/:addressId(\\d+)
 exports.apiRouter.put("/api/contacts/:contactId(\\d+)/addresses/:addressId(\\d+)", address_controller_1.AddressController.update);
 //120 - Remove address api
 exports.apiRouter.delete("/api/contacts/:contactId(\\d+)/addresses/:addressId(\\d+)", address_controller_1.AddressController.remove);
-//120 - Remove address api
+//121 - List address api
 exports.apiRouter.get("/api/contacts/:contactId(\\d+)/addresses", address_controller_1.AddressController.list);

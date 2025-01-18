@@ -4,7 +4,6 @@ import { ResponseError } from "../error/response-error";
 import {
   CreateUserRequest,
   LoginUserRequest,
-  registerRequest,
   toUserResponse,
   UpdateUserRequest,
   UserResponse,
@@ -19,12 +18,12 @@ export class UserService {
   // 107 - REGISTER
   static async register(request: CreateUserRequest): Promise<UserResponse> {
     //1.validation data
-    const user = Validation.validate(UserValidation.REGISTER, request);
+    const userRegister = Validation.validate(UserValidation.REGISTER, request);
 
     // 2. mencari semua username dengan count
     const totalUserWithSameUsername = await prismaClient.user.count({
       where: {
-        username: registerRequest.username,
+        username: userRegister.username,
       },
     });
 
@@ -34,11 +33,11 @@ export class UserService {
     }
 
     // 4.hashing password
-    registerRequest.password = await bcrypt.hash(registerRequest.password, 10);
+    userRegister.password = await bcrypt.hash(userRegister.password, 10);
 
     // 5.registrasikan kedalam database (simpan)
     const User = await prismaClient.user.create({
-      data: registerRequest,
+      data: userRegister,
     });
 
     //6. konversi dari User ke userResponse, kita return kan data berhasil nya

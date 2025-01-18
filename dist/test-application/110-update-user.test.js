@@ -34,8 +34,8 @@ describe("PATCH /api/users/update", () => {
             name: "",
         });
         logging_1.logger.debug(response.body);
-        expect(response.status).toBe(500);
-        expect(response.body.errors).toBe(undefined);
+        expect(response.status).toBe(400);
+        expect(response.body.errors).toBeDefined();
     }));
     //   jika gagal token nya wrong
     it("should reject update user if token is wrong", () => __awaiter(void 0, void 0, void 0, function* () {

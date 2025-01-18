@@ -50,7 +50,7 @@ apiRouter.delete(
   "/api/contacts/:contactId(\\d+)/addresses/:addressId(\\d+)",
   AddressController.remove
 );
-//120 - Remove address api
+//121 - List address api
 apiRouter.get(
   "/api/contacts/:contactId(\\d+)/addresses",
   AddressController.list

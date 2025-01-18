@@ -25,8 +25,8 @@ describe("PATCH /api/users/update", () => {
 
     logger.debug(response.body);
 
-    expect(response.status).toBe(500);
-    expect(response.body.errors).toBe(undefined);
+    expect(response.status).toBe(400);
+    expect(response.body.errors).toBeDefined();
   });
 
   //   jika gagal token nya wrong
