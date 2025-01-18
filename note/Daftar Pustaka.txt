@@ -82,7 +82,7 @@
     > semua api address
     > dokumentasi menjalankan compile dan menjalankan application in javascript berada di 122-Distribution file.txt
         > khusus utk buat api di tsconfig ==> "module" menggunakan commonJs, jika utk latihan biasa agar js nya bisa dibaca pakai ES6 saja
-
+    > manual test dengan postman , note nya di 123-Manual Test.txt
 
 Dokumentasi Folder : 
     > latihan typecript bab 1 - 3

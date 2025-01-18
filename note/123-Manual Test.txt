@@ -1,7 +1,13 @@
 Manual Test
     > bisa menggunakan postman, vscode dan webstorm
+    > utk test di localhost, jangan lupan menyalakan node nya dengan npm run start/node dist/src-application/main.js
+    > baru test di postman
+    > menjalankan semua unit test npm run test
     
 
 note :
     > kalo pakai npm run test, akan banyak error karena terjadi overlapping data|
         > maka dari itu, buat nya gini "test": "jest --runInBand",
+    > jika ada perubahan code di typescript jangan lupa compile ulang (karena code yang dijalankan asli nya yang javascript)
+        > sama dengan mau debugging code nya , cek yang javascript nya
+        > compile ulang dengan npx tsc
